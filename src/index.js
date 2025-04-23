@@ -9,6 +9,8 @@ import { Home } from './Home';
 
 import { Register } from './Register';
 import Plans from './Plans';
+import  Binding  from './Binding';
+import Condtional from './Condtional';
 
 
 
@@ -21,7 +23,9 @@ root.render(
       <Routes>
         <Route path="/" element={ <Home />} />
        <Route path='/plans' element={ <Plans/>} />
-        <Route path="/register"element={ <Register/> } />
+        <Route path="/register" element={ <Register/> } />
+        <Route path="/binding" element={ <Binding name="indu"/>} />
+        <Route path='/condtional' element= {<Condtional name="testconn"/>} />
       </Routes>
     </Router>
     <Footer />

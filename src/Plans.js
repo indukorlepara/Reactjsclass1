@@ -1,6 +1,5 @@
 import React from "react";
 import PricingPlan from "./PricingPlan";
-
 function Plans(){
 
     const plans=[
@@ -33,6 +32,7 @@ function Plans(){
             ></PricingPlan>
             ))}
         </div>
+        
     );
 }
 export default Plans;

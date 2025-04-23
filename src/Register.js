@@ -1,9 +1,12 @@
 
 import React, { useState } from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
+import  Binding  from './Binding';
+
+
 
 export function Register(){
-    
+
   // State to store form input values
     const [formData, setFormData] = useState({
         name: '',
@@ -41,9 +44,9 @@ export function Register(){
     setFormData({ name: '', email: ''});
   };
 
-
     return (
       <div>
+    <Binding name="Alice"/>
         <Container className="mt-5">
           <Row>
             <Col md={{ span: 6, offset: 3 }}>

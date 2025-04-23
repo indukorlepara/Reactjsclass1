@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, Container, Card,Button, Row, Col} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+
 export  function App() {
   return (
     <div className="App">
@@ -21,10 +22,14 @@ export function NavBar() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/register">Register</Nav.Link>
             <Nav.Link as={Link} to="/plans">Plans</Nav.Link>
+            <Nav.Link as={Link} to="/Binding">Binding</Nav.Link>
+            <Nav.Link as={Link} to="/Condtional">Condtional</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
+   
   );
 }
 export function CardComponent() {
