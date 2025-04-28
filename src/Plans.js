@@ -31,6 +31,7 @@ function Plans(){
             features={plan.features}
             ></PricingPlan>
             ))}
+            <i className="fa fa-camera-retro"></i>
         </div>
         
     );

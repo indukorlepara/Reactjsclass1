@@ -11,9 +11,8 @@ import { Register } from './Register';
 import Plans from './Plans';
 import  Binding  from './Binding';
 import Condtional from './Condtional';
-
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
